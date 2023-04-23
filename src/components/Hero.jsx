@@ -20,13 +20,9 @@ const Hero = () => {
                     <p className={`${styles.heroSubText} mt-2 text-white`}>
                         Je suis une personne dynamique et créative qui aime les
                         défis.<br className="sm:block hidden mt-5"/>
-                    </p>
-                    <p className={`${styles.heroSubText} mt-5 text-white`}>
                         Le développement informatique ainsi que la recherche de la
                         meilleure solution à mettre en place afin de garantir la meilleure
                         expérience utilisateur est un problème sur lequel j’aime réfléchir.
-                    </p>
-                    <p className={`${styles.heroSubText} mt-5 text-white`}>
                         Je souhaite également élargir mes compétences et n’ai donc pas peur de découvrir de nouvelles
                         technologies.
                     </p>

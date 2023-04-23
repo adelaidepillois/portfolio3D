@@ -19,11 +19,29 @@ const Navbar = () => {
                         setActive("");
                         window.scrollTo(0, 0);
                     }}>
-                    <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+                    <img src={logo} alt="logo" className="
+                    lg:w-[250px]
+                    lg:h-[250px]
+                    md:w-[150px]
+                    md:h-[150px]
+                    sm:w-[80px]
+                    sm:h-[80px]
+                    xs:w-[40px]
+                    xs:h-[40px]
+                    absolute
+                    lg:mt-[60px]
+                    md:mt-[10px]
+                    lg:left-[-40px]
+                    md:left-0
+                    sm:left-[-10px]
+                    xs:left-[100px]
+                    object-contain" />
+                    <div className="lg:ml-[120px] md:ml-[90px] ">
                     <p className="text-white text-[18px] font-bold coursor-pointer flex">
                         Adélaïde&nbsp;
                         <span className="sm:block hidden md:block hidden">| Dev Front</span>
                     </p>
+                    </div>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((Link) => (
