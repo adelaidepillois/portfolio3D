@@ -4,12 +4,20 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
 import { useLoader } from '@react-three/fiber'
 import CanvasLoader from "../Loader";
+import { AmbientLight } from "three"; // Importer la light
+
 
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
   return (
       <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
   );
+};
+const Logo = () => {
+    const logo = useGLTF("./Logo/scene.gltf");
+    return (
+        <primitive object={logo.scene} scale={2.5} position-y={0} rotation-y={0} />
+    );
 };
 
 const EarthCanvas = () => {
@@ -34,6 +42,9 @@ const EarthCanvas = () => {
               minPolarAngle={Math.PI / 2}
           />
           <Earth />
+{/*            <Logo />*/}
+
+            <ambientLight intensity={100} color="white" /> {/* Ajouter la light ici */}
 
           <Preload all />
         </Suspense>

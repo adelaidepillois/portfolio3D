@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-    const computer = useGLTF("./desktop_pc/scene.gltf");
+    const computer = useGLTF("./newAnim/scene.gltf");
 
     return (
         <mesh>
@@ -68,6 +68,9 @@ const ComputersCanvas = () => {
                     minPolarAngle={Math.PI / 2}
                 />
                 <Computers isMobile={isMobile} />
+                <ambientLight intensity={100} color="white" /> {/* Ajouter la light ici */}
+                <pointLight position={[10, 10, 10]}/>
+
             </Suspense>
 
             <Preload all />

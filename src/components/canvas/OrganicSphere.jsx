@@ -1,6 +1,6 @@
 import React, {Suspense} from "react";
 import CanvasLoader from "../Loader";
-import MyVideo from "./../../../public/video/organicSphere.mp4"
+import MyVideo from "./../../../public/video/0001_2.mp4"
 
 
 
@@ -20,8 +20,8 @@ class OrganicSphere extends React.Component {
             inset-y-0
             right-0
             {/*lg:pl-[-800px]*/}
-            lg:mt-[-300px]
-            lg:pb-[650px]
+            lg:mt-[-200px]
+            lg:pb-[530px]
             md:pb-[350px]
             -z-40
             " width="100%" height="100%" preload='auto' autoPlay loop muted
