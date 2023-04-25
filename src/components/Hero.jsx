@@ -3,25 +3,37 @@ import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import {OrganicSphere} from './canvas';
 import {ComputersCanvas} from './canvas';
+import {Tilt} from "react-tilt";
+import { fadeIn, textVariant } from "../utils/motion";
 
 
-const Hero = () => {
+const Hero = (index) => {
     return (
         <section className="relative w-full h-screen mx-auto">
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
-                <div className="flex flex-col justify-center items-center mt-5">
-                    <div className="w-5 h-5 rounded-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"/>
-                    <div className="w-1 sm:h-80 h-40 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"/>
+                <div className='flex flex-col justify-center items-center mt-5'>
+                    <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+                    <div className='w-1 sm:h-80 h-40 violet-gradient' />
                 </div>
                 <div className="grid-cols-6 lg:pr-[400px] md:pr-[250px]">
                     <div className=" flex flex-row">
                         <h1 className={`${styles.heroHeadText} text-white`}>Hello, Je suis <br className="sm:block hidden mt-5"/><span
                             className="text-[#915eff]">Adélaïde Pillois</span>
                         </h1>
+                        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+                            <Tilt
+                                options={{
+                                    max: 50,
+                                    scale: 1.5,
+                                    speed: 450,
+                                }}
+                            >
                         <img className="rounded-full border-2 border-sky-500 h-[80px] ml-[20px] mt-[55px]" src="../../public/memoji.png"/>
+                            </Tilt>
+                        </motion.div>
                     </div>
-                    <p className={`${styles.heroSubText} mt-2 text-white`}>
+                    <p className={`${styles.heroSubText} mt-4 text-white`}>
                         Je suis une personne dynamique et créative qui aime les
                         défis.<br className="sm:block hidden mt-5"/>
                         Le développement informatique ainsi que la recherche de la
@@ -36,8 +48,8 @@ const Hero = () => {
                 </div>
             </div>
             {/*<ComputersCanvas/>*/}
-            {/*<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-                <a href="#about">
+            <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+                <a href="#work">
                     <div
                         className="rounded-full w-[35px] h-[64px] round-3xl border-4 border-secondary flex justify-center items-start p-2">
                         <motion.div
@@ -53,7 +65,7 @@ const Hero = () => {
                         />
                     </div>
                 </a>
-            </div>*/}
+            </div>
         </section>
     )
 }

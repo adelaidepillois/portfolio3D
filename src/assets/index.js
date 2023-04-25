@@ -6,6 +6,14 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import logostlouis from "./logostlouis.png";
+import berkeley from "./berkeley.png";
+import logounivpoit from "./logounivpoit.svg";
+import logoliryc from "./logoliryc.png";
+import logokanbios from "./logokanbios.png";
+import logofeelity from "./logofeelity.png";
+
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -39,6 +47,12 @@ export {
   github,
   menu,
   close,
+  logostlouis,
+  berkeley,
+  logounivpoit,
+  logoliryc,
+  logokanbios,
+  logofeelity,
   css,
   docker,
   figma,
