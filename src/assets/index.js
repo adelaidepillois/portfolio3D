@@ -12,7 +12,9 @@ import logounivpoit from "./logounivpoit.svg";
 import logoliryc from "./logoliryc.png";
 import logokanbios from "./logokanbios.png";
 import logofeelity from "./logofeelity.png";
-
+import portfoliodjango from "./portfoliodjango.png";
+import peinture from "./peinture.jpg";
+import newlogo from "./newlogo.png";
 
 
 import css from "./tech/css.png";
@@ -53,6 +55,8 @@ export {
   logoliryc,
   logokanbios,
   logofeelity,
+  portfoliodjango,
+  newlogo,
   css,
   docker,
   figma,

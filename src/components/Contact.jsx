@@ -6,6 +6,7 @@ import {EarthCanvas} from "./canvas";
 import {ModelViewer} from "./canvas";
 import {SectionWrapper} from "../hoc";
 import {slideIn} from "../utils/motion";
+import peinture from "./../assets/peinture.jpg"
 
 const Contact = () => {
     const formRef = useRef();
@@ -124,7 +125,10 @@ const Contact = () => {
             </motion.div>
             <motion.div className='xl:flex-1 xl:h-[600px] xl:w-[30px] md:h-[550px] h-[350px] bg-secondary rounded-full'>
                 {/*<LogoNew/>*/}
-                <ModelViewer scale="40" modelPath={"./../../public/Logo/scene.gltf"}/>
+                <div className="absolute xl:flex-1">
+                    <img className="h-[800px] w-full rounded-2xl" src={peinture}/>
+                </div>
+                <ModelViewer scale="40" modelPath={"./../../public/Logo2/adeLogo3.gltf"}/>
 
                 {/*<EarthCanvas />*/}
             </motion.div>

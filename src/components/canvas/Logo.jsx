@@ -15,13 +15,13 @@ const Logo = ({ modelPath, scale = 30, position = [0, 0, 0] }) => {
                 ref={ref}
                 object={gltf.scene}
                 position={position}
-                scale={20}
+                scale={5}
             />
         </>
     );
 };
 
-const ModelViewer = ({ modelPath, scale = 40, position = [-10, -10, -15] }) => {
+const ModelViewer = ({ modelPath, scale = 10, position = [-10, -10, -15] }) => {
     return (
         <Canvas
             camera={{
@@ -30,14 +30,14 @@ const ModelViewer = ({ modelPath, scale = 40, position = [-10, -10, -15] }) => {
                 far: 200,
                 position: [0, 0, 10],
             }}>
-            <pointLight position={[0, 0, 100000000000]} />
+            <pointLight position={[0, 30, 100]} />
             <Suspense fallback={null}>
                 <OrbitControls
                     enableZoom={false}
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2}
                 />
-                <Logo modelPath={modelPath} scale={30} position={position} />
+                <Logo modelPath={modelPath} scale={10} position={position} />
             </Suspense>
         </Canvas>
     );

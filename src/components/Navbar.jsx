@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import {logo, menu, close} from '../assets';
+import {newlogo, menu, close} from '../assets';
 
 const Navbar = () => {
 
@@ -19,22 +19,23 @@ const Navbar = () => {
                         setActive("");
                         window.scrollTo(0, 0);
                     }}>
-                    <img src={logo} alt="logo" className="
-                    lg:w-[250px]
+                    <img src={newlogo} alt="logo" className="
+                    lg:w-[180px]
                     lg:h-[250px]
-                    md:w-[150px]
+                    md:w-[120px]
                     md:h-[150px]
-                    sm:w-[80px]
-                    sm:h-[80px]
-                    xs:w-[40px]
-                    xs:h-[40px]
+                    sm:w-[55px]
+                    sm:h-[55px]
+                    w-[40px]
+                    h-[40px]
+                    left-[114px]
                     absolute
-                    lg:mt-[60px]
-                    md:mt-[10px]
-                    lg:left-[-40px]
-                    md:left-0
-                    sm:left-[-10px]
-                    xs:left-[100px]
+                    lg:mt-[46px]
+                    md:mt-[25px]
+                    lg:left-0
+                    md:left-[15px]
+                    sm:left-[5px]
+                    xs:left-[114px]
                     object-contain" />
                     <div className="lg:ml-[120px] md:ml-[90px] ">
                     <p className="text-white text-[18px] font-bold coursor-pointer flex">

@@ -22,6 +22,7 @@ import {
     logokanbios,
     berkeley,
     logounivpoit,
+    portfoliodjango,
     starbucks,
     tesla,
     shopify,
@@ -125,7 +126,7 @@ const experiences = [
         title: "Developeuse Front",
         company_name: "Feelity, Bordeaux",
         icon: logofeelity,
-        iconBg: "#1d6020",
+        iconBg: "#BC90E4",
         date: "( Nov 2022 - Aujourd'hui )",
         points: [
             "Feelity développe des projets innovants sur-mesure pour aider les entreprises à numériser leur métier",
@@ -171,7 +172,7 @@ const experiences = [
         title: "Licence Génie Bio -Informatique",
         company_name: "Université de Poitiers",
         icon: logounivpoit,
-        iconBg: "#D7FFC5",
+        iconBg: "#76cc7b",
         date: "( 2018 - 2020 )",
         points: [
             "Formation double compétence en biologie et en informatique",
@@ -183,7 +184,7 @@ const experiences = [
         title: "Stage Agro écologie",
         company_name: "UC Berkeley, California USA",
         icon: berkeley,
-        iconBg: "#76cc7b",
+        iconBg: "#BC90E4",
         date: "( 2019 - 3 mois )",
         points: [
             "By joining the research team led by Timothy Bowles I had the opportunity to work on one of their project led by Coleman Rainey",
@@ -195,7 +196,7 @@ const experiences = [
         title: "BTS Biotechnologies",
         company_name: "Lycée St Louis, Bordeaux",
         icon: logostlouis,
-        iconBg: "#429646",
+        iconBg: "#D7FFC5",
         date: "( 2016 - 2018 )",
         points: [
             "Culture scientifique : mathématiques, physique-chimie et biologie",
@@ -208,7 +209,7 @@ const experiences = [
         title: "Baccalauréat Sciences et Technologies de Laboratoire",
         company_name: "Lycée St Louis, Bordeaux",
         icon: logostlouis,
-        iconBg: "#1d6020",
+        iconBg: "#76cc7b",
         date: "( 2014 - 2016 )",
         points: [
             "Au travers d’enseignements privilégiant la démarche expérimentale et la démarche de projet, les élèves acquièrent des compétences en Biologie, en Biochimie et en Biotechnologies",
@@ -246,25 +247,33 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Portfolio Django",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "J'ai commencé par designer des maquettes sur Figma puis j'ai développé ce portfolio Django avec sa plateforme d'administration qui contiens tous les contenus.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "Django",
+                color: "text-[#7029CBFF]",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "HTML",
+                color: "text-[#FDFFA6]",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "CSS",
+                color: "text-[#BC90E4]",
+            },
+            {
+                name: "Bootstrap",
+                color: "text-[#D7FFC5]",
+            },
+            {
+                name: "Figma",
+                color: "text-[#FDFFA6]",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: portfoliodjango,
+        source_code_link: "https://github.com/adelaidepillois/djangoPortfolio",
     },
     {
         name: "Job IT",

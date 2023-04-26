@@ -29,7 +29,21 @@ const Hero = (index) => {
                                     speed: 450,
                                 }}
                             >
-                        <img className="rounded-full border-2 border-sky-500 h-[80px] ml-[20px] mt-[55px]" src="../../public/memoji.png"/>
+                        <img className="
+                        rounded-full
+                        border-2 border-sky-500
+                        lg:h-[80px]
+                        md:h-[80px]
+                        h-[50px]
+                        sm:h-[50px]
+                        min-w-[50px]
+                        md:min-w-[80px]
+                        sm:min-w-[50px]
+                        lg:ml-[20px]
+                        sm:ml-[-1px]
+                        sm:mt-[10px]
+                        mt-[10px]
+                        lg:mt-[55px]" src="../../public/memoji.png"/>
                             </Tilt>
                         </motion.div>
                     </div>
@@ -48,7 +62,7 @@ const Hero = (index) => {
                 </div>
             </div>
             {/*<ComputersCanvas/>*/}
-            <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+            <div className="absolute bottom-5 w-full flex justify-center items-center">
                 <a href="#work">
                     <div
                         className="rounded-full w-[35px] h-[64px] round-3xl border-4 border-secondary flex justify-center items-start p-2">
