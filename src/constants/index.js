@@ -14,10 +14,14 @@ import {
     mongodb,
     git,
     figma,
+    newlogo,
     docker,
     meta,
     logostlouis,
+    peinture,
     logofeelity,
+    portfolioreact1,
+    portfolioreact,
     logoliryc,
     logokanbios,
     berkeley,
@@ -247,6 +251,28 @@ const testimonials = [
 
 const projects = [
     {
+        name: "Blender",
+        description:
+            "Création d'un logo sur Illustrator puis Blender ainsi que d'un objet avec animation.",
+        tags: [
+            {
+                name: "blender",
+                color: "text-[#BC90E4]",
+            },
+            {
+                name: "illustrator",
+                color: "text-[#D7FFC5]",
+            },
+            {
+                name: "logo",
+                color: "text-[#7029CBFF]",
+            },
+        ],
+        videoSrc: "../../public/video/blender.mp4",
+        image: newlogo,
+        source_code_link: "",
+    },
+    {
         name: "Portfolio Django",
         description:
             "J'ai commencé par designer des maquettes sur Figma puis j'ai développé ce portfolio Django avec sa plateforme d'administration qui contiens tous les contenus.",
@@ -264,6 +290,10 @@ const projects = [
                 color: "text-[#BC90E4]",
             },
             {
+                name: "SCSS",
+                color: "text-[#7029CBFF]",
+            },
+            {
                 name: "Bootstrap",
                 color: "text-[#D7FFC5]",
             },
@@ -271,51 +301,55 @@ const projects = [
                 name: "Figma",
                 color: "text-[#FDFFA6]",
             },
+            {
+                name: "Parallax",
+                color: "text-[#D7FFC5]",
+            },
         ],
+        videoSrc: "../../public/video/portfoliodjango.mp4",
         image: portfoliodjango,
         source_code_link: "https://github.com/adelaidepillois/djangoPortfolio",
     },
     {
-        name: "Job IT",
+        name: "Peinture",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "J'ai commencé la peinture durant le premier confinement en 2020 et depuis j'aime travailler sur ce format et laisser parler ma créativité",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "Art",
+                color: "text-[#BC90E4]",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "Créativité",
+                color: "text-[#7029CBFF]",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "Couleur",
+                color: "text-[#D7FFC5]",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        videoSrc: "../../public/video/peinture.mp4",
+        image: peinture,
+        source_code_link: "",
     },
     {
-        name: "Trip Guide",
+        name: "Premier portfolio React",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Mon premier portfolio React avec beaucoup d'animations et notament l'objet présent dans la première section que j'ai réalisé sur Spline",
         tags: [
             {
-                name: "nextjs",
-                color: "blue-text-gradient",
+                name: "React",
+                color: "text-[#7029CBFF]",
             },
+
             {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "Spline",
+                color: "text-[#D7FFC5]",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        videoSrc: "../../public/video/portfoliorect.mp4",
+        image:   portfolioreact,
+        source_code_link: "https://github.com/adelaidepillois/projectest",
     },
 ];
 

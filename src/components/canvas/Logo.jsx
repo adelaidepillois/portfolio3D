@@ -21,14 +21,14 @@ const Logo = ({ modelPath, scale = 30, position = [0, 0, 0] }) => {
     );
 };
 
-const ModelViewer = ({ modelPath, scale = 10, position = [-10, -10, -15] }) => {
+const ModelViewer = ({ modelPath, scale = 10, position = [-10, -5, -12] }) => {
     return (
         <Canvas
             camera={{
                 fov: 45,
                 near: 0.1,
                 far: 200,
-                position: [0, 0, 10],
+                position: [0, 30, 0],
             }}>
             <pointLight position={[0, 30, 100]} />
             <Suspense fallback={null}>
@@ -37,7 +37,7 @@ const ModelViewer = ({ modelPath, scale = 10, position = [-10, -10, -15] }) => {
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2}
                 />
-                <Logo modelPath={modelPath} scale={10} position={position} />
+                <Logo modelPath={modelPath} scale={1} position={position} />
             </Suspense>
         </Canvas>
     );

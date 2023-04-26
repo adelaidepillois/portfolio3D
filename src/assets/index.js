@@ -15,7 +15,8 @@ import logofeelity from "./logofeelity.png";
 import portfoliodjango from "./portfoliodjango.png";
 import peinture from "./peinture.jpg";
 import newlogo from "./newlogo.png";
-
+import portfolioreact1 from "./portfolioreact1.png"
+import portfolioreact from "./portfolioreact.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -57,6 +58,9 @@ export {
   logofeelity,
   portfoliodjango,
   newlogo,
+  portfolioreact1,
+  peinture,
+  portfolioreact,
   css,
   docker,
   figma,

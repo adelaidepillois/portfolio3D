@@ -40,7 +40,7 @@ const ExperienceCard = ({experience}) => {
                     {experience.company_name} -
                 </p>
                 <p
-                    className='text-[#FDFFA6] text-[16px] font-semibold'
+                    className='text-[#FDFFA6] text-[26px] font-semibold'
                     style={{margin: 0}}
                 >
                     &nbsp;{experience.date}
@@ -65,11 +65,11 @@ const ExperienceCard = ({experience}) => {
 const Experience = () => {
     return (
         <>
-            <p className={`${styles.sectionSubText} text-center`}>
+            <p className={`${styles.sectionSubText} text-center text`}>
                 What I have done so far
             </p>
             <h2 className={`${styles.sectionHeadText} text-center`}>
-                Work Experience.
+                Experience.
             </h2>
 
             <div className='mt-20 flex flex-col'>
@@ -86,4 +86,4 @@ const Experience = () => {
     );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "about");

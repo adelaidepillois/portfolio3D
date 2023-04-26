@@ -19,7 +19,7 @@ const Hero = (index) => {
                 <div className="grid-cols-6 lg:pr-[400px] md:pr-[250px]">
                     <div className=" flex flex-row">
                         <h1 className={`${styles.heroHeadText} text-white`}>Hello, Je suis <br className="sm:block hidden mt-5"/><span
-                            className="text-[#915eff]">Adélaïde Pillois</span>
+                            className="text-[#915eff] title">Adélaïde Pillois</span>
                         </h1>
                         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
                             <Tilt
@@ -56,6 +56,49 @@ const Hero = (index) => {
                         Je souhaite également élargir mes compétences et n’ai donc pas peur de découvrir de nouvelles
                         technologies.
                     </p>
+                    <div className='mt-4 flex flex-wrap gap-2 '>
+                        <p className={`text-[14px] bg-[#145612] text-white rounded-xl px-4 mt-1`}>
+                            Créativité
+                        </p>
+                        <p className={`text-[14px] bg-[#BC90E4] text-white rounded-xl px-4 mt-1`}>
+                            Rigueur
+                        </p>
+                        <p className={`text-[14px] bg-[#FDFFA6] text-black rounded-xl px-4 mt-1`}>
+                            Curiosité
+                        </p>
+                        <p className={`text-[14px] bg-[#7029CBFF] text-white rounded-xl px-4 mt-1`}>
+                            Travail en équipe
+                        </p>
+                        <p className={`text-[14px] bg-[#D7FFC5] text-black rounded-xl px-4 mt-1`}>
+                            Adaptabilité
+                        </p>
+                    </div>
+                    <div className='mt-4 flex flex-wrap gap-2'>
+                        <p className={`text-[14px] bg-[#BC90E4] text-white rounded-xl px-4 mt-1`}>
+                            React
+                        </p>
+                        <p className={`text-[14px] bg-[#D7FFC5] text-[black] rounded-xl px-4 mt-1`}>
+                            ReactNative
+                        </p>
+                        <p className={`text-[14px] bg-[#7029CBFF] text-white rounded-xl px-4 mt-1`}>
+                            JS
+                        </p>
+                        <p className={`text-[14px] bg-[#FDFFA6] text-black rounded-xl px-4 mt-1`}>
+                            Django
+                        </p>
+                        <p className={`text-[14px] bg-[#BC90E4] text-white rounded-xl px-4 mt-1`}>
+                            WorldPress
+                        </p>
+                        <p className={`text-[14px] bg-[#145612] text-white rounded-xl px-4 mt-1`}>
+                            Parallax
+                        </p>
+                        <p className={`text-[14px] bg-[#D7FFC5] text-black rounded-xl px-4 mt-1`}>
+                            COO-POO
+                        </p>
+                        <p className={`text-[14px] bg-[#FDFFA6] text-black rounded-xl px-4 mt-1`}>
+                            Gestion de projet
+                        </p>
+                    </div>
                 </div>
                 <div className=" bg-cover bg-center ">
                     <OrganicSphere/>
@@ -63,7 +106,7 @@ const Hero = (index) => {
             </div>
             {/*<ComputersCanvas/>*/}
             <div className="absolute bottom-5 w-full flex justify-center items-center">
-                <a href="#work">
+                <a href="#about">
                     <div
                         className="rounded-full w-[35px] h-[64px] round-3xl border-4 border-secondary flex justify-center items-start p-2">
                         <motion.div
