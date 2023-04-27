@@ -47,7 +47,7 @@ const Hero = (index) => {
                             </Tilt>
                         </motion.div>
                     </div>
-                    <p className={`${styles.heroSubText} mt-4 text-white`}>
+                    <p className={`text-[18px] mt-4 text-white`}>
                         Je suis une personne dynamique et créative qui aime les
                         défis.<br className="sm:block hidden mt-5"/>
                         Le développement informatique ainsi que la recherche de la

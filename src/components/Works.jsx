@@ -42,7 +42,7 @@ const ProjectCard = ({
                     scale: 1.05,
                     speed: 450,
                 }}
-                className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+                className='bg-tertiary p-5 rounded-2xl sm:w-[360px] sm:h-[475px] w-full'
             >
                 <div className='relative w-full h-[230px]'>
                     {hoverDuration < 3 && (

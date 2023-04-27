@@ -127,7 +127,7 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Developeuse Front",
+        title: "Developpeuse Front",
         company_name: "Feelity, Bordeaux",
         icon: logofeelity,
         iconBg: "#BC90E4",
