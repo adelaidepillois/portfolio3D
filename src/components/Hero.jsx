@@ -2,7 +2,6 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import {OrganicSphere} from './canvas';
-import {ComputersCanvas} from './canvas';
 import {Tilt} from "react-tilt";
 import { fadeIn, textVariant } from "../utils/motion";
 

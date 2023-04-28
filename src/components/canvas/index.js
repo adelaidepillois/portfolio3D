@@ -1,6 +1,3 @@
-import EarthCanvas from "./Earth.jsx";
-import BallCanvas from "./Ball.jsx";
-import ComputersCanvas from "./Computers.jsx";
 import StarsCanvas from "./Stars.jsx";
 import OrganicSphere from "./OrganicSphere.jsx";
 import ModelViewer from "./Logo.jsx";
@@ -9,4 +6,4 @@ import ModelViewer from "./Logo.jsx";
 
 
 
-export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, OrganicSphere, ModelViewer };
+export { StarsCanvas, OrganicSphere, ModelViewer };

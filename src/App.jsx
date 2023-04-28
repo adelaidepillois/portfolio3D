@@ -1,5 +1,5 @@
 import {BrowserRouter} from "react-router-dom";
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from "./components";
+import {About, Contact, Experience, Feedbacks, Hero, Navbar, Works, StarsCanvas} from "./components";
 import * as THREE from 'three';
 import "./fonts/Pilowlava-Regular.otf";
 import "./fonts/TINY5x3-100.otf";
