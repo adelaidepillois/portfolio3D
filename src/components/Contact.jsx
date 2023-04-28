@@ -98,7 +98,7 @@ const Contact = () => {
                             name='name'
                             value={form.name}
                             onChange={handleChange}
-                            className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                            className='bg-[#241c4f] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
                         />
                     </label>
                     <label className='flex flex-col'>
@@ -109,7 +109,7 @@ const Contact = () => {
                             value={form.email}
                             onChange={handleChange}
 
-                            className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                            className='bg-[#241c4f] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
                         />
                     </label>
                     <label className='flex flex-col'>
@@ -120,13 +120,13 @@ const Contact = () => {
                             value={form.message}
                             onChange={handleChange}
                             placeholder='What you want to say?'
-                            className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                            className='bg-[#241c4f] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
                         />
                     </label>
 
                     <button
                         type='submit'
-                        className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+                        className='bg-[#241c4f] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
                     >
                         {loading ? "Envoie en cours..." : "Envoyer"}
                     </button>
