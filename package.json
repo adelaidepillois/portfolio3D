@@ -1,7 +1,9 @@
 {
-  "name": "portfolio3d",
+  "name": "hostinger-react",
+  "homepage": "http://adelaidepillois.fr",
+  "version": "1.0.0",
+  "description": "my react application",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
