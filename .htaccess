@@ -1,0 +1,4 @@
+Options -MultiViews<font></font>
+    RewriteEngine On<font></font>
+    RewriteCond %{REQUEST_FILENAME} !-f<font></font>
+    RewriteRule ^ index.html [QSA,L]
