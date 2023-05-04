@@ -15,8 +15,16 @@ import logofeelity from "./logofeelity.png";
 import portfoliodjango from "./portfoliodjango.png";
 import peinture from "./peinture.jpg";
 import newlogo from "./newlogo.png";
-import portfolioreact1 from "./portfolioreact1.png"
-import portfolioreact from "./portfolioreact.png"
+import portfolioreact1 from "./portfolioreact1.png";
+import portfolioreact from "./portfolioreact.png";
+import memoji from "./memoji.png";
+import nuage from "./nuage.jpg";
+import portfoliorectv from "./video/portfoliorect.mp4";
+import peinturev from "./video/peinture.mp4";
+import portfoliodjangov from "./video/portfoliodjango.mp4";
+import blenderv from "./video/blender.mp4";
+
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -53,6 +61,7 @@ export {
   logostlouis,
   berkeley,
   logounivpoit,
+  nuage,
   logoliryc,
   logokanbios,
   logofeelity,
@@ -66,6 +75,10 @@ export {
   figma,
   git,
   html,
+  peinturev,
+  portfoliodjangov,
+  portfoliorectv,
+  blenderv,
   javascript,
   mongodb,
   nodejs,
@@ -75,6 +88,7 @@ export {
   typescript,
   threejs,
   meta,
+  memoji,
   shopify,
   starbucks,
   tesla,

@@ -4,6 +4,8 @@ import {styles} from '../styles';
 import {OrganicSphere} from './canvas';
 import {Tilt} from "react-tilt";
 import { fadeIn, textVariant } from "../utils/motion";
+import memoji from "./../assets/memoji.png";
+import video from "./../assets/video/portfoliodjango.mp4"
 
 
 const Hero = (index) => {
@@ -42,7 +44,7 @@ const Hero = (index) => {
                         sm:ml-[-1px]
                         sm:mt-[10px]
                         mt-[10px]
-                        lg:mt-[55px]" src="../../public/memoji.png"/>
+                        lg:mt-[55px]" src={memoji}/>
                             </Tilt>
                         </motion.div>
                     </div>

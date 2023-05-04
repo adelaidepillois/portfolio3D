@@ -5,7 +5,10 @@ import {styles} from "../styles";
 import {ModelViewer} from "./canvas";
 import {SectionWrapper} from "../hoc";
 import {slideIn} from "../utils/motion";
-import peinture from "./../assets/peinture.jpg"
+import peinture from "./../assets/peinture.jpg";
+import {newlogo} from '../assets';
+import nuage from "./../assets/nuage.jpg";
+
 
 const Contact = () => {
 
@@ -143,9 +146,12 @@ const Contact = () => {
                          lg:h-[900px]'
             >
                 <img className={`w-full object-cover rounded-2xl ${
-          screenWidth < 1280 ? "h-[230px] absolute pb-4" : "absolute h-[900px]"
-                }`} src={peinture}/>
-                <ModelViewer scale="20" modelPath={"./../../public/Logo2/adeLogo3.gltf"}/>
+          screenWidth < 1280 ? "h-[150px] absolute pb-4" : "absolute h-[900px]"
+                }`} src={nuage}/>
+                <img className={`w-full object-cover rounded-2xl ${
+                    screenWidth < 1280 ? "h-[230px] mt-[-35px] ml-[350px] w-[230px] absolute pb-4" : "absolute h-[700px] pt-[250px]"
+                }`} src={newlogo}/>
+                {/*<ModelViewer scale="20" modelPath={"./../../public/Logo2/adeLogo3.gltf"}/>*/}
             </motion.div>
         </div>
     );
