@@ -151,7 +151,7 @@ const experiences = [
         points: [
             "J’ai pu participer à la construction de back-office pour site internet, à la mise en place de parallaxe, mais aussi à la refonte complète de site web",
             "Participé à sept projets différents : deux projets internes, deux projets de formation, un projet no-code et deux projets de refonte de site",
-            "Django, WordPress, HTML, CSS, PHP, JS, Docker, Bootstrap, React, Divi, Gestion de projet agile",
+            "Django, WordPress, HTML, CSS, PHP, JS, Docker, Bootstrap, React, Parallax, Divi, Gestion de projet agile",
         ],
     },
     {
