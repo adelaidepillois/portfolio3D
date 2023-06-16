@@ -253,6 +253,25 @@ const projects = [
         source_code_link: "",
     },
     {
+        name: "Animation JS",
+        description:
+            "J'ai réalisé une animation en JS afin de mieux comprendre le fonctionnement de canvas-sketch avec JS et de m'amuser un peu avec tout ça.",
+        tags: [
+            {
+                name: "JS",
+                color: "text-[#FDFFA6]",
+            },
+
+            {
+                name: "Canvas",
+                color: "text-[#BC90E4]",
+            },
+        ],
+        videoSrc: jsanim,
+        image:   jsanim2,
+        source_code_link: "https://github.com/adelaidepillois/JSAnimation",
+    },
+    {
         name: "Portfolio Django",
         description:
             "J'ai commencé par designer des maquettes sur Figma puis j'ai développé ce portfolio Django avec sa plateforme d'administration qui contiens tous les contenus.",
@@ -330,25 +349,6 @@ const projects = [
         videoSrc: portfoliorectv,
         image:   portfolioreact,
         source_code_link: "https://github.com/adelaidepillois/projectest",
-    },
-    {
-        name: "Animation JS",
-        description:
-            "J'ai réalisé une animation en JS afin de mieux comprendre le fonctionnement de canvas-sketch avec JS et de m'amuser un peu avec tout ça.",
-        tags: [
-            {
-                name: "JS",
-                color: "text-[#FDFFA6]",
-            },
-
-            {
-                name: "Canvas",
-                color: "text-[#BC90E4]",
-            },
-        ],
-        videoSrc: jsanim,
-        image:   jsanim2,
-        source_code_link: "https://github.com/adelaidepillois/JSAnimation",
     },
     {
         name: "Animation JS",
