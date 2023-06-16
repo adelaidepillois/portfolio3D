@@ -22,6 +22,12 @@ import portfoliorectv from "./video/portfoliorect.mp4";
 import peinturev from "./video/peinture.mp4";
 import portfoliodjangov from "./video/portfoliodjango.mp4";
 import blenderv from "./video/blender.mp4";
+import jsanim from "./video/JSAnim.mp4";
+import jsanim2 from "./jsanim2.png";
+import jsanim3 from "./video/JSAnim2.mp4";
+import jsanim4 from "./jsanim4.png";
+
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -74,5 +80,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  jsanim2,
+  jsanim,
+  jsanim3,
+  jsanim4,
   memoji,
 };

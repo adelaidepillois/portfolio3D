@@ -1,6 +1,10 @@
 import {
     mobile,
     web,
+    jsanim,
+    jsanim2,
+    jsanim3,
+    jsanim4,
     javascript,
     typescript,
     html,
@@ -326,6 +330,44 @@ const projects = [
         videoSrc: portfoliorectv,
         image:   portfolioreact,
         source_code_link: "https://github.com/adelaidepillois/projectest",
+    },
+    {
+        name: "Animation JS",
+        description:
+            "J'ai réalisé une animation en JS afin de mieux comprendre le fonctionnement de canvas-sketch avec JS et de m'amuser un peu avec tout ça.",
+        tags: [
+            {
+                name: "JS",
+                color: "text-[#FDFFA6]",
+            },
+
+            {
+                name: "Canvas",
+                color: "text-[#BC90E4]",
+            },
+        ],
+        videoSrc: jsanim,
+        image:   jsanim2,
+        source_code_link: "https://github.com/adelaidepillois/JSAnimation",
+    },
+    {
+        name: "Animation JS",
+        description:
+            "J'ai réalisé une animation en JS qui réagis en fonction des variations d'un audio et voici le résultat.",
+        tags: [
+            {
+                name: "JS",
+                color: "text-[#FDFFA6]",
+            },
+
+            {
+                name: "Canvas",
+                color: "text-[#BC90E4]",
+            },
+        ],
+        videoSrc: jsanim3,
+        image:   jsanim4,
+        source_code_link: "https://github.com/adelaidepillois/JSAnimation",
     },
 ];
 
