@@ -42,9 +42,9 @@ const ProjectCard = ({
                     scale: 1.05,
                     speed: 450,
                 }}
-                className='bg-tertiary p-5 rounded-2xl sm:w-[360px] sm:h-[475px] w-full'
+                className='bg-tertiary p-5 rounded-2xl sm:w-[360px] sm:h-[475px] md:w-[360px] md:h-[580px] w-full'
             >
-                <div className='relative w-full h-[230px]'>
+                <div className='relative w-full h-[320px]'>
                     {hoverDuration < 3 && (
                         <img
                         src={image}
@@ -54,7 +54,7 @@ const ProjectCard = ({
                     )}
                     {hoverDuration > 3 && (
                         <div className="absolute">
-                        <video src={videoSrc} autoPlay controls className="w-[500px] h-[200px] object-cover rounded-2xl" />
+                        <video src={videoSrc} autoPlay controls className="w-[320px] h-[320px] object-cover rounded-2xl" />
                         </div>
                     )}
                     <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -74,7 +74,7 @@ const ProjectCard = ({
                     </div>
                 </div>
 
-                <div className='mt-5'>
+                <div className='mt-[20px]'>
                     <h3 className='text-white font-bold text-[24px]'>{name}</h3>
                     <p className='mt-2 text-secondary text-[14px]'>{description}</p>
                 </div>
