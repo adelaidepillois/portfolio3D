@@ -1,4 +1,4 @@
-import React, {useRef, useState, useEffect } from "react";
+import React, {useRef, useState, useEffect} from "react";
 import {motion} from "framer-motion";
 import emailjs from "@emailjs/browser";
 import {styles} from "../styles";
@@ -8,9 +8,11 @@ import {slideIn} from "../utils/motion";
 import peinture from "./../assets/peinture.jpg";
 import {newlogo} from '../assets';
 import nuage from "./../assets/nuage.jpg";
+import {Tilt} from "react-tilt";
+import {fadeIn, textVariant} from "../utils/motion";
 
 
-const Contact = () => {
+const Contact = (index) => {
 
     const formRef = useRef();
     const [form, setForm] = useState({
@@ -136,21 +138,23 @@ const Contact = () => {
             </motion.div>
             <motion.div
                 variants={slideIn("right", "tween", 0.2, 1)}
-                className='h-full
-                 flex-[0.75]
-                  flex flex-col
-                   xl:w-[30px]
-                    md:h-[550px]
-                      h-[800px]
-                        sm:h-[400px]
-                         lg:h-[900px]'
+                className='h-full flex-[0.75] flex flex-col xl:w-[30px] md:h-[550px] h-[800px] sm:h-[400px] lg:h-[900px]'
             >
-                <img className={`w-full object-cover rounded-2xl ${
-          screenWidth < 1280 ? "h-[150px] absolute pb-4" : "absolute h-[900px]"
-                }`} src={nuage}/>
-                <img className={`w-full object-cover rounded-2xl ${
-                    screenWidth < 1280 ? "h-[230px] mt-[-35px] ml-[350px] w-[230px] absolute pb-4" : "absolute h-[700px] pt-[250px]"
-                }`} src={newlogo}/>
+                <div className="relative h-full">
+                    <img className={`w-full object-cover rounded-2xl h-full ${
+                        screenWidth < 1280 ? " h-[135px] mx-auto " : " h-[900px] mx-auto"
+                    }`} src={nuage}/>
+
+
+                            <img
+                                className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full object-cover rounded-2xl ${
+                                    screenWidth < 1280 ? "h-[200px] w-[200px] mx-auto" : "h-[570px]"
+                                }`}
+                                src={newlogo}
+                            />
+
+                </div>
+
                 {/*<ModelViewer scale="20" modelPath={"./../../public/Logo2/adeLogo3.gltf"}/>*/}
             </motion.div>
         </div>

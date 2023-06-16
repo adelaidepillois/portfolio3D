@@ -34,16 +34,16 @@ const ExperienceCard = ({experience}) => {
         }
     >
         <div>
-            <h3 className='text-[#BC90E4] text-[24px] font-bold'>{experience.title}</h3>
+            <h3 className='text-[#BC90E4] text-[20px] md:text-[22px] lg:text-[24px] font-bold'>{experience.title}</h3>
 
             <p
-                className='text-[#FDFFA6] text-[16px] font-semibold'
+                className='text-[#FDFFA6] text-[16px] md:text-[20px] lg:text-[22px] font-semibold'
                 style={{margin: 0}}
             >
                 {experience.company_name} -
             </p>
             <p
-                className='text-[#FDFFA6] text-[26px] font-semibold'
+                className='text-[#FDFFA6] text-[14px] md:text-[20px] lg:text-[18px] font-semibold'
                 style={{margin: 0}}
             >
                 &nbsp;{experience.date}
@@ -68,7 +68,7 @@ const ExperienceCard = ({experience}) => {
 const Experience = () => {
 return (
     <>
-        <p className={`${styles.sectionSubText} text-center text`}>
+        <p className={`${styles.sectionSubText} pt-[100px] text-center text`}>
             What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>

@@ -1,7 +1,5 @@
 import {
     mobile,
-    backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -16,11 +14,9 @@ import {
     figma,
     newlogo,
     docker,
-    meta,
     logostlouis,
     peinture,
     logofeelity,
-    portfolioreact1,
     portfoliorectv,
     blenderv,
     peinturev,
@@ -31,12 +27,6 @@ import {
     berkeley,
     logounivpoit,
     portfoliodjango,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
 } from "../assets";
 
@@ -55,24 +45,6 @@ export const navLinks = [
     },
 ];
 
-const services = [
-    {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
-];
 
 const technologies = [
     {
@@ -131,7 +103,7 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Developpeuse Front",
+        title: "Développeuse Front",
         company_name: "Feelity, Bordeaux",
         icon: logofeelity,
         iconBg: "#BC90E4",
@@ -357,4 +329,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { technologies, experiences, testimonials, projects };
